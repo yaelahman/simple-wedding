@@ -83,6 +83,11 @@ body {
     top: -40px;
 }
 
+.acara-1 img,
+.acara-2 img {
+    height: 200px;
+}
+
 .footer-chair-1 {
     position: absolute;
     top: 50px;
@@ -94,6 +99,14 @@ body {
     top: 50px;
     right: 0;
     height: 200px;
+}
+
+@media (max-width: 576px) {
+
+    .acara-1 img,
+    .acara-2 img {
+        height: 100px;
+    }
 }
 
 @media (min-width: 576px) {
@@ -110,16 +123,21 @@ body {
 
     .chair-1 {
         height: 150px;
-        bottom: 0;
+        bottom: 80px;
     }
 
     .chair-2 {
         height: 150px;
-        bottom: 0;
+        bottom: 80px;
     }
 
     .footer-chair-1 {
         height: 200px;
+    }
+
+    .acara-1 img,
+    .acara-2 img {
+        height: 100px;
     }
 }
 
@@ -149,6 +167,10 @@ body {
     }
 
 
+    .acara-1 img,
+    .acara-2 img {
+        height: 200px;
+    }
 
     .chair-1 {
         height: 320px;
