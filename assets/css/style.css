@@ -1,0 +1,141 @@
+@font-face {
+    font-family: Aksara;
+    src: url("../fonts/Genk-Kobra\ Elysanti\ rev.ttf");
+}
+
+body {
+    background-color: #FFFFFF;
+    /* font-family: 'Squiggly Asta', sans-serif; */
+    font-family: 'Playfair Display';
+    overflow-x: hidden;
+}
+
+#main {
+    font-family: 'Squiggly Asta', sans-serif;
+}
+
+.content-title {
+    position: absolute;
+    top: 10%;
+}
+
+
+.guest-tag {
+    position: relative;
+    right: -60px;
+}
+
+.initial-name {
+    position: absolute;
+    right: -130px;
+    top: -8px;
+}
+
+.initial-name span {
+    color: white;
+    font-size: 50px;
+}
+
+.images {
+    top: 0;
+}
+
+.name {
+    font-size: 60px !important;
+    font-weight: 600;
+}
+
+.chair-1 {
+    position: absolute;
+    left: 0;
+    height: 500px;
+}
+
+.chair-2 {
+    position: absolute;
+    right: 0;
+    height: 500px;
+}
+
+.font-aksara {
+    font-family: Aksara;
+}
+
+#rangkaian {
+    position: relative;
+}
+
+.acara-1 {
+    position: absolute;
+    right: 3%;
+    top: -40px;
+}
+
+.acara-2 {
+    position: absolute;
+    left: 3%;
+    top: -40px;
+}
+
+@media (max-width: 576px) {
+    .images img {
+        height: 600px !important;
+    }
+
+
+    .chair-1 {
+        height: 150px;
+        bottom: 0;
+    }
+
+    .chair-2 {
+        height: 150px;
+        bottom: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .images img {
+        height: 600px !important;
+    }
+
+    .chair-1 {
+        height: 150px;
+        bottom: 0;
+    }
+
+    .chair-2 {
+        height: 150px;
+        bottom: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .images img {
+        height: 600px !important;
+    }
+
+
+
+    .chair-1 {
+        height: 120px;
+        bottom: 100px;
+    }
+
+    .chair-2 {
+        height: 120px;
+        bottom: 100px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .images img {
+        height: 600px !important;
+    }
+}
+
+@media (max-width: 1400px) {
+    .images img {
+        height: 600px !important;
+    }
+}
