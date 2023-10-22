@@ -16,19 +16,19 @@ body {
 
 .content-title {
     position: absolute;
-    top: 10%;
+    top: 10px;
 }
 
 
 .guest-tag {
     position: relative;
-    right: -60px;
+    right: -30px;
 }
 
 .initial-name {
     position: absolute;
-    right: -130px;
-    top: -8px;
+    right: -75px;
+    top: 40px;
 }
 
 .initial-name span {
@@ -40,21 +40,27 @@ body {
     top: 0;
 }
 
+.images img {
+    height: 530px !important;
+}
+
 .name {
-    font-size: 60px !important;
+    font-size: 55px !important;
     font-weight: 600;
 }
 
 .chair-1 {
     position: absolute;
     left: 0;
-    height: 500px;
+    height: 100px;
+    bottom: 30px;
 }
 
 .chair-2 {
     position: absolute;
     right: 0;
-    height: 500px;
+    height: 100px;
+    bottom: 30px;
 }
 
 .font-aksara {
@@ -67,21 +73,40 @@ body {
 
 .acara-1 {
     position: absolute;
-    right: 3%;
+    right: 0%;
     top: -40px;
 }
 
 .acara-2 {
     position: absolute;
-    left: 3%;
+    left: 0%;
     top: -40px;
 }
 
-@media (max-width: 576px) {
+.footer-chair-1 {
+    position: absolute;
+    top: 50px;
+    height: 200px;
+}
+
+.footer-chair-2 {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    height: 200px;
+}
+
+@media (min-width: 576px) {
     .images img {
         height: 600px !important;
     }
 
+
+    .initial-name {
+        position: absolute;
+        right: -115px;
+        top: 45px;
+    }
 
     .chair-1 {
         height: 150px;
@@ -92,9 +117,13 @@ body {
         height: 150px;
         bottom: 0;
     }
+
+    .footer-chair-1 {
+        height: 200px;
+    }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .images img {
         height: 600px !important;
     }
@@ -108,9 +137,13 @@ body {
         height: 150px;
         bottom: 0;
     }
+
+    .footer-chair-1 {
+        height: 200px;
+    }
 }
 
-@media (max-width: 992px) {
+@media (min-width: 992px) {
     .images img {
         height: 600px !important;
     }
@@ -118,24 +151,46 @@ body {
 
 
     .chair-1 {
-        height: 120px;
-        bottom: 100px;
+        height: 320px;
+        bottom: 0;
     }
 
     .chair-2 {
-        height: 120px;
-        bottom: 100px;
+        height: 320px;
+        bottom: 0;
+    }
+
+    .footer-chair-1 {
+        height: 200px;
     }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
     .images img {
         height: 600px !important;
     }
+
+    .chair-1 {
+        height: 500px;
+        bottom: 0;
+    }
+
+    .chair-2 {
+        height: 500px;
+        bottom: 0;
+    }
+
+    .footer-chair-1 {
+        height: 200px;
+    }
 }
 
-@media (max-width: 1400px) {
+@media (min-width: 1400px) {
     .images img {
         height: 600px !important;
+    }
+
+    .footer-chair-1 {
+        height: 200px;
     }
 }
